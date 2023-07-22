@@ -6,6 +6,7 @@ const API_URL = 'http://www.omdbapi.com?apikey=e4120a92';
 
 
 
+
 const App = () => {
 
   const [movies, setMovies] = useState([]);
