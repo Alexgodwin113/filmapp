@@ -1,13 +1,15 @@
-
+import { useState } from 'react';
 import './App.css';
 
 const App = () => {
 
-  const name = 'John';
+  const [counter, setCounter] = useState(0);
 
   return (
     <div className="App">
-      <h1> Hello {name} </h1>
+      <button>-</button>
+      <h1>0</h1>
+      <button>+</button>
     </div> 
   ); 
 }
